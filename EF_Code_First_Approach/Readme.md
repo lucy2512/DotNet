@@ -10,4 +10,4 @@
 #### (for Migration)Tools->NuGet Package Manager->Package Manager Control
 #### Run Command-> 1.Add-Migration InitialMigration 2.Update-Database
 ### Step-4
-#### Add MVC Controller with view, using Entity Framework.
+#### Add MVC Controller with view, using Entity Framework
