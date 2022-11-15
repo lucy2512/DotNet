@@ -11,4 +11,4 @@
 #### Tools->NuGet Package Manager->Package Manager Control
 #### Run Command-> Scaffold-DbContext "Server=DESKTOP-9POA90V\SQLEXPRESS;Database=StudentDB;Integrated Security=True;Encrypt = False" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
 ### Step-4
-#### Add MVC Controller with view, using Entity Framework
+#### Add MVC Controller with view, using Entity Framework.
