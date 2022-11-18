@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EMP_SAL_CALCULATOR", "EMP_SAL_CALCULATOR\EMP_SAL_CALCULATOR.csproj", "{2B058957-F4E1-464B-A0C3-894909B36507}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B058957-F4E1-464B-A0C3-894909B36507}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B058957-F4E1-464B-A0C3-894909B36507}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B058957-F4E1-464B-A0C3-894909B36507}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B058957-F4E1-464B-A0C3-894909B36507}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C31A85FD-EAB7-4E69-A7A7-C4DB851B50BD}
+	EndGlobalSection
+EndGlobal
