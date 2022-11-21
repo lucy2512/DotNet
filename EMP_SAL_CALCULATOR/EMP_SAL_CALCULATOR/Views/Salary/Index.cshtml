@@ -1,0 +1,43 @@
+﻿@model EMP_SAL_CALCULATOR.Models.SalDet
+
+
+@{
+	ViewBag.Title="Index";
+}
+
+<html>
+	<head>
+
+	</head>
+	<body>
+		<h1>SALARY CALCULATOR</h1>
+		<div class="row">
+			@using(Html.BeginForm("/Index","Salary",FormMethod.Post))
+			{
+				<div class="form-group">
+					<lable for="name">Employee Name</lable>
+				<input type="text" class="form-control" id="EmpName" name="EmpName" value="@Model.EmpName" />
+				</div>
+				<br/>
+				<div class="form-group">
+					<lable for="name">Base Salary</lable>
+				<input type="text" class="form-control" id="Salary" name="Salary" value="@Model.Salary" />
+				</div>
+				<br/>
+				<div class="form-group">
+					<lable for="name">Tax</lable>
+				<input type="text" class="form-control" id="Tax" name="Tax" value="@Model.Tax" />
+				</div>
+				<br/>
+				<div class="form-group">
+					<lable for="name">Acctual Salary</lable>
+				<input type="text" class="form-control" id="AccSalary" name="AccSalary" value="@Model.AccSalary" />
+				</div>
+				<br/>
+				<button type="submit" class="btn btn-info" id="add" value="add">Calculate</button>
+
+			}
+
+		</div>
+	</body>
+</html>
