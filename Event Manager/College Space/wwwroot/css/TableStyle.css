@@ -1,0 +1,24 @@
+﻿body {
+    text-align: center;
+}
+
+.table-style {
+    border: 5px solid;
+    text-align: center;
+}
+
+.table {
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+a{
+    color:white;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: white;
+    background-color: transparent;
+    text-decoration:none;
+}

@@ -1,0 +1,40 @@
+﻿@model IEnumerable<College_Space.Models.Event>
+
+<link rel="stylesheet" href="~/css/TableStyle.css" asp-append-version="true" />
+<table class="table table-striped table-bordered table-dark">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.EventName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EventOrganizer)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EventType)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EventDate)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.EventName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.EventOrganizer)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.EventType)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.EventDate)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
